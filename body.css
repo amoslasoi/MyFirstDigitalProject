@@ -1,0 +1,34 @@
+#container{
+/*height: 300px;*/
+/*width: 100%;*/
+/*border:2px solid green;*/
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+background-color: lightyellow;
+/*border:2px solid black;*/
+}
+#container>div{
+	width: 400px;
+	height: 300px;
+	border:2px solid black;
+	background-color: #ffffff;
+	color:black;
+	border-radius:6px;
+}
+#left{
+width: 30px;
+height: 300px;
+border:2px solid black;
+}
+.center{
+width: 30px;
+height: 300px;
+border:2px solid black;
+}
+.right{
+width: 30px;
+height: 300px;
+border:2px solid black;
+}
